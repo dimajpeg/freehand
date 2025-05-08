@@ -13,3 +13,152 @@
   --lighten-blue: #e8f3ff;
   --text: #16133d;
 }
+
+body {
+  width: 1440px;
+  height: 934px;
+  max-width: 100%;
+  height: auto;
+
+
+  .container {
+    max-width: 1170px;
+    height: 934px;
+    width: 100%;
+    margin: auto;
+
+  }
+
+
+  header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    width: 1170px;
+    width: auto;
+    height: 80px;
+
+    .logo {
+      width: 200px;
+      height: 35px;
+
+      h2 {
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 100%;
+        color: var(--text);
+        margin: 0;
+      }
+    }
+
+    hr {
+      border: 1px solid #efeef3;
+      width: 1440px;
+      height: 0px;
+    }
+  }
+
+  .service {
+    margin-top: 100px;
+
+    h3 {
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 131%;
+      color: #7690a8;
+      margin: 0;
+      padding-bottom: 15px;
+    }
+
+    h1 {
+      font-family: var(--third-family);
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 130%;
+      letter-spacing: 0.01em;
+      color: var(--text);
+      margin: 0;
+    }
+
+    .cards {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: row;
+      gap: 30px;
+
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+
+        border: 1px solid #e5eaf4;
+        border-radius: 8px;
+        padding: 40px;
+        width: 370px;
+        height: 340px;
+
+        background: #fff;
+
+        .content {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          gap: 30px;
+          width: 290px;
+          height: 260px;
+
+          h2 {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 89%;
+            letter-spacing: 0.01em;
+            color: var(--text);
+            margin: 0;
+
+          }
+
+          p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            color: var(--text);
+            margin: 0;
+          }
+
+          a {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 16px;
+            color: #3db370;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+footer {
+  width: auto;
+  height: 193px;
+  background: var(--text);
+
+  h2 {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 100%;
+    color: #fff;
+  }
+}
